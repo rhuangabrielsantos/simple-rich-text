@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Rich Text</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="logo.svg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>A Simple Rich Text</h1>
+        <img src="logo.svg" alt="Logo">
+    </header>
+
+    <main>
+        <section class="editors">
+            <b class="pointer" id="bold">B</b>
+            <i class="pointer" id="italic">I</i>
+            <s class="pointer" id="strikethrough">S</s>
+            <u class="pointer" id="underlined">U</u>
+
+            <i class="line"></i>
+
+            <i id="align-left" class="fa fa-align-left active pointer"></i>
+            <i id="align-center" class="fa fa-align-center pointer"></i>
+            <i id="align-right" class="fa fa-align-right pointer"></i>
+
+            <i class="line"></i>
+
+            <i id="link" class="fa fa-link pointer"></i>
+        </section>
+
+        <div contenteditable="true" id="rich-text">
+        </div>
+    </main>
+
+    <footer>
+        <span>Developed by Rhuan Gabriel <i class="fa fa-heart hearth"></i></span>
+
+        <div class="contacts">
+            <a href="https://github.com/rhuangabrielsantos" target="_blanked">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rhuangabrielsantos/" target="_blanked">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+<script src="main.js"></script>
+
+</html>
